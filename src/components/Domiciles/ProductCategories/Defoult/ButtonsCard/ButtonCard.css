@@ -19,7 +19,8 @@
     color: #ffffff;
     font-weight: bold;
     transition: all 1s;
-    font-size: 12px;
+    font-size: large;
+    
     border: none;
 }
 .buttonAmountChange button:disabled{
