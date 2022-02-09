@@ -12,7 +12,7 @@ export function CardsMenu(){
       
            <><div className='cardcategory'>
             <div className='namecategory'>
-                <p>HAMBURGUESAS DE CARNE</p>
+                <p>HAMBURGUESAS<br/>DE CARNE</p>
             </div>
             <div className='imgcategory'>
                 <img src="http://drive.google.com/uc?export=view&id=1cAW6WAbhWQjA1tczE2eQC60Vi-aLNjsR"
@@ -25,7 +25,7 @@ export function CardsMenu(){
 
             <div className='cardcategory'>
                 <div className='namecategory'>
-                    <p>HAMBURGUESAS DE POLLO</p>
+                    <p>HAMBURGUESAS<br/>DE POLLO</p>
                 </div>
                 <div className='imgcategory'>
                     <img src="http://drive.google.com/uc?export=view&id=1l-2-3DVJxK83WUX6tqFns9ieNpsUtlXY"

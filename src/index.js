@@ -33,7 +33,7 @@ ReactDOM.render(
             <Route path="/domiciles/acompa" element={<DefaultCategory json={Categories[9]}/>}/>
             <Route path="/domiciles/desserts" element={<DefaultCategory json={Categories[10]}/>}/>
             <Route path="/domiciles/drinks" element={<DefaultCategory json={Categories[11]}/>}/>
-            <Route path="/domiciles/shop" element={<h1>Carrito de Compra</h1>} />
+            <Route path="/domiciles/shop" element={<h1> el maldito Carrito de Compras que me hace falta jajajajajaj</h1>} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Route>
       </Routes>
