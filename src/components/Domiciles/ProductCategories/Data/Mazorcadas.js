@@ -8,7 +8,7 @@ export const Mazorcadas = JSON.parse(`{
          	"name":"EMPERATRIZ",
          	"url":"http://drive.google.com/uc?export=view&id=1JswMI8Nc0Z7MsiLE9tSeJGlMSVDk9vC9",
          	"description":"Maíz tierno, pollo desmechado, carne desmechada, chorizo, tocineta, jamon, champiñones, huevos de codorniz, queso y papa cabello de angel.",
-         	"value":15.500},
+         	"value":15500},
              {"id":502,
          	"name":"OLYMPIC",
          	"url":"http://drive.google.com/uc?export=view&id=1EKHS48VjjC9jWZUfKDvY4oXdGvCkcQPk",
