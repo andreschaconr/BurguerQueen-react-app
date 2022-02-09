@@ -16,7 +16,7 @@ export function Info(){
             </div>
         <div>
                 <ul className="textsocial-net">
-                    <p className="socialtext">Calle 8sur #40D-18<br/>Ciudad Montes</p>
+                    <p className="socialtext">Calle 8sur #40D-18</p>
                     <p className="socialtext" >4916311</p>
                     <p className="socialtext">3124480213</p>
                     <p className="socialtext">#queenhamburguesart</p>
