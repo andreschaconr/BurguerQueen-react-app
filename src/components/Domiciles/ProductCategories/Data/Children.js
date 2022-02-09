@@ -1,0 +1,27 @@
+export const Children = JSON.parse(`{
+    "id":7,
+    "name":"MENU INFANTIL",
+	"path":"children",
+    "url":"http://drive.google.com/uc?export=view&id=1uyX-KGzlExg8uzqNMeaJi5pGiZRpp97C",
+    "products":[
+		    {"id":101,
+         	"name":"COMBO HAMBURGUESA",
+         	"url":"http://drive.google.com/uc?export=view&id=1uyX-KGzlExg8uzqNMeaJi5pGiZRpp97C",
+         	"description":"Papas a la francesa, salchicha americana, chorizo, carne desmechada y pollo desmechado.",
+         	"value":13000},
+             {"id":702,
+         	"name":"COMBO PERRO",
+         	"url":"http://drive.google.com/uc?export=view&id=1uyX-KGzlExg8uzqNMeaJi5pGiZRpp97C",
+         	"description":"Papas a la francesa, salchicha americana, carne desmechada y queso, bañadas en salsa de champiñones. ",
+         	"value":12000},
+			 {"id":703,
+         	"name":"COMBO SALCHIPAPA",
+         	"url":"http://drive.google.com/uc?export=view&id=1uyX-KGzlExg8uzqNMeaJi5pGiZRpp97C",
+         	"description":"Papas a la francesa, salchicha americana, jamon, queso, tocineta y salsas tradicionales.",
+         	"value":11000},
+			 {"id":704,
+         	"name":"COMBO NUGGETS",
+         	"url":"http://drive.google.com/uc?export=view&id=1uyX-KGzlExg8uzqNMeaJi5pGiZRpp97C",
+         	"description":"Papas a la francesa, salchicha americana, huevos de codorniz tocineta en trozos y salsa de queso.",
+         	"value":9000}]
+}`)

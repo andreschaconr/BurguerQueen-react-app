@@ -1,0 +1,43 @@
+.containerDomiciles {
+    align-items: center;
+    background: #1A1A18;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    min-height: 88vh;
+
+  }
+
+  .domicilesMenu{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  }
+
+ .logoDomiciles {
+    padding-top: 3em;
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding-bottom: 3em;
+  }
+  .logoDomiciles.img {
+    
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+
+  .domicilesMenu .navDomiciles{
+   
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      align-items: center;
+      padding-bottom: 4em;
+  }
+
+ 

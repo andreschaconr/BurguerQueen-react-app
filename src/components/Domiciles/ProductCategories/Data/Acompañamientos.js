@@ -1,0 +1,27 @@
+export const Acompañamientos = JSON.parse(`{
+    "id":10,
+    "name":"ACOMPAÑAMIENTOS",
+	"path":"acompa",
+    "url":"http://drive.google.com/uc?export=view&id=1Cg0Oy2hSFeqzw_ukRt4XJ40BwNFkiXN-",
+    "products":[
+		    {"id":1001,
+         	"name":"PAPA CRIOLLA",
+         	"url":"http://drive.google.com/uc?exportview&id=1acirex8kpQldGmpA9BiEXz03bfoLQ-gB",
+         	"description":"",
+         	"value":5000},
+             {"id":1002,
+         	"name":"CROQUETAS DE YUCA",
+         	"url":"http://drive.google.com/uc?export=view&id=1Cg0Oy2hSFeqzw_ukRt4XJ40BwNFkiXN-",
+         	"description":"",
+         	"value":5000},
+			 {"id":1003,
+         	"name":"PAPA EN CASCOS",
+         	"url":"http://drive.google.com/uc?export=view&id=1OXWIcrFvZH9Zes5Ck6oViVezsLZ3Nq1L",
+         	"description":"",
+         	"value":5500},
+             {"id":1004,
+         	"name":"PAPA A LA FRANCESA",
+         	"url":"http://drive.google.com/uc?export=view&id=1s6gDzTiVPmeN7huaeMANyIXCA4z1N--p",
+         	"description":"",
+         	"value":5000}]
+}`)

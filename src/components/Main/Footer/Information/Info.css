@@ -1,0 +1,17 @@
+
+
+.social-net{
+    display: flex;
+    flex-direction: column;
+}
+
+.socialicon{
+    padding: 0.2em;
+}
+
+.socialtext{
+    padding: 0.2em;
+    display: flex;
+    align-content: flex-start;
+    color: #000;
+}

@@ -1,0 +1,10 @@
+header{
+    background-color: #1a1a18;
+    display: flex;
+    justify-content: center;
+}
+
+.headerFloat{
+    position: fixed;
+    z-index: 2;
+}

@@ -1,0 +1,133 @@
+.containerHome {
+  align-items: center;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #1a1a18;
+  justify-content: center;
+}
+
+
+.socialHome {
+  display: flex;
+  width: 100vw;
+}
+.socialHome .logoHome {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.socialHome .storyHome {
+ 
+  background-color:#1a1a18;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  text-align: justify;
+  color: #fff;
+  font-size: 1.5em;
+ 
+}
+.socialHome .storyHome h2 {
+  text-align: center;
+}
+
+
+
+@media (max-width: 480px) {
+  .socialHome {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+  }
+  .socialHome .logoHome {
+    width: 75vw;
+  }
+  .socialHome .storyHome {
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    min-height: 40vh;
+    padding: 2vw;
+    width: 80vw;
+  }
+  .socialHome .storyHome p {
+    padding-bottom: 8vw;
+    
+  }
+}
+@media (min-width: 481px) and (max-width: 769px) {
+  .socialHome {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+  }
+  
+  .socialHome {
+    align-items: center;
+    margin-top: 10vh;
+  }
+  .socialHome .logoHome {
+    width: 75vw;
+  }
+  .socialHome .storyHome {
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    min-height: 40vh;
+    padding: 2vw;
+    width: 60vw;
+  }
+  .socialHome .storyHome p {
+    padding-bottom: 8vw;
+  }
+}
+@media (min-width: 770px) and (max-width: 993px) {
+  
+  .socialHome {
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+    flex-direction: column;
+  }
+  .socialHome .storyHome {
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    min-height: 40vh;
+    width: 50vw;
+  }
+  .socialHome .storyHome p {
+    padding-bottom: 8vw;
+  }
+  .socialHome .logoHome {
+    width: 75vw;
+  }
+
+}
+@media (min-width: 994px) {
+  
+  .socialHome {
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5vh;
+    
+  }
+  .socialHome .storyHome {
+    align-items: center;
+    height: auto;
+    justify-content: center;
+    
+    width: 50vw;
+  }
+  .socialHome .storyHome p {
+    padding-bottom: 8vw;
+  }
+  .socialHome .logoHome {
+    width: 40vw;
+  }
+  
+}

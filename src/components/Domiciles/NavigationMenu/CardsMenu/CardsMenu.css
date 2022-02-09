@@ -1,0 +1,45 @@
+.cardcategory{
+    height: 180px;
+    width: 180px;
+    background-color: #1a1a18;
+    display: flex;
+align-items: center;
+align-content: center;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.namecategory{
+    color: #fff;
+    font-size: 12px;
+}
+.imgcategory{
+    width: 180px;
+    height: 119px;
+    border-radius: 44px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.imgcategory{
+    height: 119px;
+    width: 119px;
+}
+.pathcategory a{
+    color: #000;
+    display: flex;
+    background-color: #F7931E;
+    font-size: 0.75em;
+    text-decoration: none;
+    width: 118px;
+    height: 28px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.pathcategory a:hover{
+    background-color: #e0861e;
+}

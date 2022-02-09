@@ -1,0 +1,18 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+}
+.NavBar a {
+  align-items: center;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  padding: 2vh;
+  text-decoration: none;
+}
+.NavBar a img {
+  align-self: center;
+  display: flex;
+  max-width: 40px;
+}

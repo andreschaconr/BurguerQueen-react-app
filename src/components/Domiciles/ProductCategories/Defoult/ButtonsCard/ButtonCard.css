@@ -1,0 +1,34 @@
+.buttonAmountChange{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    padding-top: 5px;
+    padding-left: 15px;
+  
+}
+
+
+.buttonAmountChange button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36.82px;
+    height: 24.5px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 1s;
+    font-size: x-large;
+    border: none;
+}
+.buttonAmountChange button:disabled{
+    background-color: #f8362870;
+}
+
+.Less{
+    background-color: #F83528;
+}
+.Add{
+    background-color: #25D366;
+}

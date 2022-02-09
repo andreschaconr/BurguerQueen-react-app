@@ -1,0 +1,14 @@
+footer{
+    background-color: #F7931E;
+    color: #ffffff;
+    width: 100vw;
+    height: 140px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1vh;
+}
+footer h3{
+    margin:1vh
+}
