@@ -6,7 +6,7 @@ import { Routes, Route, Navigate, HashRouter} from "react-router-dom";
 import {Main} from "./components/Main/Main"
 import {Home} from "./components/Home/Home"
 import { Domiciles } from "./components/Domiciles/Domiciles";
-
+import { Buycart } from "./components/shop/Buycart";
 import {DefaultCategory} from "./components/Domiciles/ProductCategories/Defoult/Default";
 import {Categories} from "./components/Domiciles/ProductCategories/Data/Categories"
 
@@ -33,7 +33,7 @@ ReactDOM.render(
             <Route path="/domiciles/acompa" element={<DefaultCategory json={Categories[9]}/>}/>
             <Route path="/domiciles/desserts" element={<DefaultCategory json={Categories[10]}/>}/>
             <Route path="/domiciles/drinks" element={<DefaultCategory json={Categories[11]}/>}/>
-            <Route path="/domiciles/shop" element={<h1> el maldito Carrito de Compras que me hace falta jajajajajaj</h1>} />
+            <Route path="/domiciles/shop" element={<Buycart/>} />
           <Route path="*" element={<Navigate replace to="/" />} />
         </Route>
       </Routes>

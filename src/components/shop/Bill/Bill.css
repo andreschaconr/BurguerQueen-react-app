@@ -1,0 +1,24 @@
+.Billlogo {
+  
+    display: flex;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .Billlogo.img {
+    
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+  }
+
+  .Billcontainer{
+      width: 20.68em;
+      min-height: 21em;
+      height: auto;
+      border-radius: 10px;
+      background-color: #fff;
+      
+  }
