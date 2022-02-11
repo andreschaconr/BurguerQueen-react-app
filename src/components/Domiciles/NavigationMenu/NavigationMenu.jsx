@@ -4,7 +4,7 @@ import { CardsMenu } from "./CardsMenu/CardsMenu";
 
 
 
-export function NavegationMenu(props){
+export function NavegationMenu(){
 
  
 

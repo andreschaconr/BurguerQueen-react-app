@@ -20,5 +20,19 @@
       height: auto;
       border-radius: 10px;
       background-color: #fff;
+      display: flex;
+      position: relative;
+      align-items: flex-end;
       
+  }
+  
+  
+  .Total{
+      height: 35px;
+      bottom: 0;
+      width: 100%;
+      border-bottom: 3px;
+      border-color: black;
+      position: relative;
+      z-index: 3;
   }

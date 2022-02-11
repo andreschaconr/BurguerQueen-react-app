@@ -13,7 +13,9 @@ export function Bill(){
         </div>
         <div className = "Billcontainer">
         
-           
+           <div className="Total">
+               <h2>TOTAL            $</h2>
+           </div>
         </div>
     
         </>

@@ -3,7 +3,8 @@ import "./ProductCard.css";
 import { ButtonCard } from "../ButtonsCard/ButtonCard";
 
 export function ProductCard(props) {
-  const {name, url, description, value }=props;
+  const { data, amount, id } = props;
+  let { name, url, description, value } = data;
 
   return (
     <div className="productCard">
@@ -19,14 +20,20 @@ export function ProductCard(props) {
               <p>{description}</p>
           </div>
           <div className="productValue">
-              <h3>$......{value} </h3>
+              <h3>$......{value.toLocaleString("es-CO", {
+              
+              currency: "COP"
+            })} </h3>
           </div>
           
           
         </div>
        
       </div>
-      <ButtonCard/>
+      <ButtonCard
+     key={"buttonProduct" + id}
+     amount={amount}
+     id={id}/>
     </div>
   );
 }
